@@ -2,12 +2,31 @@ div {
 	font-family: 'Roboto Slab', serif;
 }
 
+.container{
+	height: 60px;
+}
+
+.carousel-item{
+	margin: auto;
+	width: auto;
+}
+
+.jumbotron {
+	margin: 7% 10%
+}
+
+.navbar {
+	background-color: #394d369c;
+}
+
 #form-body
 {
 	position: fixed;
 	top: 50%;
-	left: 50%;	
+	left: 50%;
 	transform: translate(-50%, -50%);
+	padding: 5%;
+	background-color: #394d369c;
 }
 
 .form {
@@ -18,7 +37,7 @@ div {
 @media (min-width: 29.375rem) {
   .form {
     grid-column-gap: 25px;
-    grid-template-areas: 
+    grid-template-areas:
       "label-name  label-email"
       "field-name  field-email"
       "label-msg   ."
@@ -73,23 +92,6 @@ div {
 
 .label-message {
   margin-top: 20px;
-}	
-
-.copyright {
-        position: fixed;
-        bottom: 0;
-       	width: 100%	;
-        color: #ffffff;
-        background-color: #00ff99;
-        padding: 10px 0;
-        text-align: center;
-}
-
-img {
-	border-radius: 15px;
-	width: 10%;
-	height: auto;
-	object-fit: scale-down;
 }
 
 .aboutus {
@@ -103,19 +105,13 @@ img {
 }
 
 
-#WF4 {
-	float: right;
-	position: relative;
-}
-
-#WF5 {
-	float: right;
-	position: relative;
-}
-
 .tomove {
 	padding-top: 20px;
-	padding-bottom:px;	
+	padding-bottom:px;
+}
+
+h1 {
+	padding-top: 2%;
 }
 
 p {
@@ -131,19 +127,29 @@ ul {
 }
 
 
-#WF5 {
-	clear: right;
-	padding-top: 5px;
-}
-
 #tabll {
-	padding-top: 10%;	
-	padding-left: 10%;		
-	padding-right: 10% ;													
+	padding-top: 10%;
+	padding-left: 10%;
+	padding-right: 10% ;
 }
 
-iframe {
-	height: 450px;
-	width: 900px;
+img {
+	width: 50%;
+
 }
 
+.footer {
+				font-size: medium;
+				position: fixed;
+				bottom: 0;
+				width: 100%	;
+				color: #ffffff;
+				background-color: #394d369c;
+				padding: 2.5px 0;
+				text-align: center;
+}
+
+.carousel-item {
+	margin-left: auto;
+	margin-right: auto;
+}
