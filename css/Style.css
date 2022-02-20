@@ -2,17 +2,239 @@ div {
 	font-family: 'Roboto Slab', serif;
 }
 
-.container{
-	height: 60px;
+/* <editMain> */
+.sec1{
+	display: flex;
+	justify-content: space-between;
+	background: #394d364c;
+	padding-bottom: 50px;
 }
 
-.carousel-item{
-	margin: auto;
-	width: auto;
+.sec{
+	margin-top:100px;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
 }
+
+.news{
+	margin-top: 108px;
+	padding-bottom: 75px;
+	text-align: center;
+	/* text-weight: 1000;
+	text-size: 60px; */
+}
+
+.photo{
+	width: 300px;
+}
+
+.numb{
+	display: flex;
+	justify-content: space-between;
+}
+
+.email{
+	display: flex;
+	justify-content: space-between;
+}
+
+/* .logogor{
+	padding-bottom: 50px;
+} */
+
+.napishi{
+	margin-bottom: 50px;
+}
+
+.butt{
+	color: #fff;
+	background: #6A85E3;
+	font-size: 18px;
+	padding: 10px;
+	font-weight: bold;
+}
+
+.butt:hover{
+	background: #5e77d4;
+}
+
+.butt:active{
+	background: #415bb8;
+}
+
+.phoneLogo{
+	width: 30px;
+	height: 30px;
+}
+
+.logoMail{
+	width: 30px;
+	height: 30px;
+}
+
+.phoneLogo{
+	text-align: left;
+}
+
+.kazgeot{
+	padding-left: 10px;
+	text-align: left;
+}
+
+/* .sec2{
+	background: #394d364c;
+} */
+
+.images{
+	text-shadow: 0.5px 0.5px 0.5px black;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 100px 0 200px;
+	padding-bottom: 30px;
+	margin-bottom: 150px;
+}
+
+.image{
+	width: 600px;
+}
+
+.oNas	{
+	text-align: left;
+	padding-right: 18%;
+}
+
+.sec3{
+	padding: 50px 157px 94px 250px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	background: #394d364c;
+
+}
+
+
+/* </editMain> */
+
+/* <edit3> */
+.allMail{
+	display: flex;
+	justify-content: space-between;
+}
+
+.mailLogo1{
+	margin-top: 15em;
+	margin-left: 150px;
+}
+
+.mailLogo{
+	margin-top: 15em;
+}
+
+/* </edit> */
+
+/* <edit1> */
+.card-body{
+	display: flex;
+	justify-content: 50px;
+}
+
+.KazGeoTime{
+	font-size: 22px;
+	/* margin-left: -70px; */
+}
+
+.rab{
+	text-align: center;
+}
+
+.carousel {
+  display: block;
+  margin: auto;
+  max-height: 768px;
+	max-width: 1500px;
+}
+
+.bigLogo{
+	width:250px;
+	margin: 10px 10px ;
+	/* float: left; */
+}
+.card-title1{
+	margin-right: 40px;
+}
+
+
+.text-left{
+	margin:0 10%;
+}
+
+
+/* </edit1> */
+
+/* <edit2> */
+
+.banner{
+	position: relative;
+	height: 100vh;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+
+
+/* .banner img {
+	height: 100%;
+
+} */
+
+.row{
+	text-align: center;
+}
+
+.section-top {
+  height: 100vh;     /*высота вьюпорта , на всю страницу*/
+	background: url("https://i.postimg.cc/wjgSHtyH/backg2.jpg");
+  background-size: cover;     /*одна фото покрывет всю страницу*/
+  text-align: center;
+  padding: 170px 0 100px;  /* отступ сверху 170 px, снизу 100px,слева справа 0*/
+}
+
+
+.section-top__containers {
+
+	padding: 0px 40px;
+  position: relative;          /*чтобы текст был выше по текстуре картинки*/
+  width: 500px;
+	background: #fff;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+
+}
+
+.row{
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+
+
+/* </edit2> */
+
+
+
+
+.containe{
+	height: 80px;
+}
+
+
 
 .jumbotron {
-	margin: 7% 10%
+	margin: 7% 10%;
 }
 
 .navbar {
@@ -94,9 +316,10 @@ div {
   margin-top: 20px;
 }
 
-.aboutus {
-	margin-right: 7.5%;
-	margin-left: 7.5%;
+ .aboutus {
+	/* margin-right: 10%;
+	margin-left: 10%; */
+
 }
 
 .middle {
@@ -149,7 +372,41 @@ img {
 				text-align: center;
 }
 
-.carousel-item {
-	margin-left: auto;
-	margin-right: auto;
+/* .carousel-item {
+
+	align-items: center;
+	align-content: center;
+} */
+
+.subNav {
+	display: none;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+
+.alert {
+	margin-left: 30%;
+	margin-right: 30%;
+	background-color: green;
+	display: none;
 }
