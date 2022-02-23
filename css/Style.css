@@ -21,6 +21,8 @@ div {
 	margin-top: 108px;
 	padding-bottom: 75px;
 	text-align: center;
+	padding: 25px;
+  width: 0 50px;
 	/* text-weight: 1000;
 	text-size: 60px; */
 }
@@ -97,7 +99,10 @@ div {
 }
 
 .image{
-	width: 600px;
+ width: 600px;
+ background: #394d364c;
+ padding: 25px;
+
 }
 
 .oNas	{
