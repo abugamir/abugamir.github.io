@@ -1,6 +1,3 @@
-document.getElementByClass("dialNumber").addEventListener("click", successCopy);
-
-
 $("#sendDate").click(function(){
   var userName = $("#userName").val()
   var userSurname = $("#userSurname").val()
@@ -38,11 +35,11 @@ $("#dialNumber3").click(function copy() {
 }
 )
 
-function successCopy() {
+$(".dialNumber").click(function successCopy() {
   $(".alert").show();
   var submit = new Audio("sounds/submitSound.mp3");
   submit.play();
-}
+})
 
 $(".closebtn").click(function closeAlert(){
   $(".alert ").hide();
@@ -53,26 +50,25 @@ $("#choose").click(function chooseTown(){
   $("#options").slideDown();
 })
 
-let footer = getElementByClass("footer")
-footer.addEventListener("mousenter", colorChange)
-footer.addEventListener("mouseleave", colorBack)
-
-function colorChange(){
+$(".footer").mouseover(function colorChange(){
   $(".footer").css("color","green")
-}
+})
 
-function colorBack(){
+$(".footer").mouseleave(function colorChange(){
   $(".footer").css("color","white")
 })
 
-  document.getElementById("#userName").addEventListener("keypress",keyColorChange)
 
-  document.getElementById("#userSurname").addEventListener("keypress",keyColorChange)
+  $("#userName").keypress(function() {
+    $("#userName").css("background-color", "#8de3f2")
+  })
 
-  document.getElementById("#userMail").addEventListener("keypress",keyColorChange)
+  $("#userSurname").keypress(function() {
+    $("#userSurname").css("background-color", "#8de3f2")
+  })
 
-  function keyColorChange() {
+  $("#userMail").keypress(function() {
     $("#userMail").css("background-color", "#8de3f2")
-  }
+  })
 
   // When the user clicks on <div>, open the popup
