@@ -37,7 +37,7 @@ $("#dialNumber3").click(function copy() {
 
 $(".dialNumber").click(function successCopy() {
   $(".alert").show();
-  var submit = new Audio("sounds/submitSound.mp3");
+  var submit = new Audio("sounds/SubmitSound.mp3");
   submit.play();
 })
 
