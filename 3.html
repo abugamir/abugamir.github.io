@@ -1,6 +1,9 @@
 <html>
 
 <head>
+  <style>
+  html { overflow:  hidden; }
+ </style>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
 <link rel="stylesheet" href="css\Style.css">
 
@@ -32,65 +35,68 @@
       </div>
   </nav>
 
-<div class="allMail">
 
-  <div class="mailLogo1">
-    <a href="#" class="photoSsylka">
-      <img src="src/email.png" alt="mail" class="mailPhoto1">
-    </a>
-  </div>
+<div class="parallax2">
+  <div class="allMail">
 
-  <div class="container">
-    <form id="form-body">
-      <h2>Отправляй заявку прямо сейчас!</h2>
+    <div class="mailLogo1">
+      <a href="#" class="photoSsylka">
+        <img src="src/envelope.svg" alt="mail" class="mailPhoto1">
+      </a>
+    </div>
 
-      <div class="form-row">
+    <div class="container">
+      <form id="form-body">
+        <h2>Отправляй заявку прямо сейчас!</h2>
 
-        <div class="form-group col-md-6">
-          <label for="input-group-text">Имя</label>
-          <input type="text" class="form-control" id="userName" required>
+        <div class="form-row">
+
+          <div class="form-group col-md-6">
+            <label for="input-group-text">Имя</label>
+            <input type="text" class="form-control" id="userName" required>
+          </div>
+
+          <div class="form-group col-md-6">
+            <label for="input-group-text">Фамилия</label>
+            <input type="text" class="form-control"  id="userSurname" reqired>
+          </div>
         </div>
 
-        <div class="form-group col-md-6">
-          <label for="input-group-text">Фамилия</label>
-          <input type="text" class="form-control"  id="userSurname" reqired>
+        <div class="form-group">
+            <label for="inputState">Город</label>
+            <select id="inputState" class="form-control">
+              <option selected id="choose">Выберите...</option>
+              <div id="options"><option>Талдыкорган</option>
+              <option >Семей</option>
+              <option >Хромтау</option></div>
+            </select>
         </div>
-      </div>
 
-      <div class="form-group">
-          <label for="inputState">Город</label>
-          <select id="inputState" class="form-control">
-            <option selected id="choose">Выберите...</option>
-            <div id="options"><option>Талдыкорган</option>
-            <option >Семей</option>
-            <option >Хромтау</option></div>
-          </select>
-      </div>
-
-      <div class="form-group input-group has-validation">
-            <div class="input-group-prepend">
-              <span class="input-group-text">Email</span>
-            </div>
-            <input type="email" class="form-control" required>
-      </div>
-
-      <div class="mb-3">
-        <label for="validationTextarea">Textarea</label>
-        <textarea class="form-control" id="validationTextarea" id="userMessage" placeholder="type here" required></textarea>
-        <div class="invalid-feedback">
-          Please enter a message in the textarea.
+        <div class="form-group input-group has-validation">
+              <div class="input-group-prepend">
+                <span class="input-group-text">Email</span>
+              </div>
+              <input type="email" class="form-control" required>
         </div>
-      </div>
 
-      <button type="submit" class="btn btn-lg btn-primary" id="sendDate"><i class="fas fa-envelope fa-1x" style="	padding-right: 10px;
-  "></i>Отправить</button>
-    </form>
-  </div>
+        <div class="mb-3">
+          <label for="validationTextarea">Textarea</label>
+          <textarea class="form-control" id="validationTextarea" id="userMessage" placeholder="type here" required></textarea>
+          <div class="invalid-feedback">
+            Please enter a message in the textarea.
+          </div>
+        </div>
 
-  <div class="mailLogo">
-    <a href="#" class="photoSsylka">
-      <img src="src/email.png" alt="mail" class="mailPhoto1">
-    </a>
+        <button type="submit" class="btn btn-lg btn-primary" id="sendDate"><i class="fas fa-envelope fa-1x" style="	padding-right: 10px;
+    "></i>Отправить</button>
+      </form>
+    </div>
+
+    <div class="mailLogo">
+      <a href="#" class="photoSsylka">
+        <img src="src/envelope.svg" alt="mail" class="mailPhoto1">
+      </a>
+    </div>
   </div>
 </div>
 

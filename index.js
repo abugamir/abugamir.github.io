@@ -1,12 +1,12 @@
-$("#sendDate").click(function(){
-  var userName = $("#userName").val()
-  var userSurname = $("#userSurname").val()
-  var userMessage = $("#userMessage").val()
-  if(userSurname.length!=0 && userMessage!=0 && userName!=0) {
+ $("#sendDate").click(function(){
+ var userName = $("#userName").val()
+ var userSurname = $("#userSurname").val()
+ var userMessage = $("#userMessage").val()
+ if(userSurname.length!=0 && userMessage!=0 && userName!=0) {
       alert(userName+", ваша заявка успешно отправлена!")
-   }
-}
-)
+    }
+ }
+ )
 
 $("#dialNumber1").click(function copy() {
   var $temp = $("<input>");
